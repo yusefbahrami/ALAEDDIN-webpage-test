@@ -9,10 +9,13 @@ body {
   height: 100%;
 }
 header {
+  position: fixed;
+  z-index: 1000;
   width: 100%;
-  background-color: rgb(56, 56, 56);
+  background-color: rgba(13, 71, 83, 78%);
   border-radius: 0 0 25px 25px;
-  color: rgb(210, 210, 210);
+  color: #fff;
+  /* color: rgb(210, 210, 210); */
   font-size: 1.5rem;
   display: flex;
   align-items: center;
@@ -31,24 +34,26 @@ header {
 .navbar a {
   padding: 0.5rem;
   border-radius: 1.5rem;
-  transition: background-color, letter-spacing 0.3s;
+  transition: background-color 0.3s, letter-spacing 0.3s;
 }
 .navbar a {
   text-decoration: none;
   color: unset;
 }
 .navbar a:hover {
-  background-color: rgb(10, 10, 10);
+  background-color: rgb(255, 255, 0);
+  color: rgba(13, 71, 83, 100%);
   letter-spacing: 0.1rem;
 }
 .close-btn,
 .humburger {
   transition: color 0.3s;
   display: none;
+  cursor: pointer;
 }
 .close-btn:hover,
 .humburger:hover {
-  color: rgb(10, 10, 10);
+  color: rgb(255, 255, 0);
 }
 @media screen and (max-width: 480px) {
   .humburger {
@@ -68,7 +73,7 @@ header {
     right: 0;
     width: 12rem;
     height: 100vh;
-    background-color: rgb(56, 56, 56);
+    background-color: rgba(13, 71, 83, 78%);
     visibility: hidden;
     padding: 3rem;
     display: flex;
