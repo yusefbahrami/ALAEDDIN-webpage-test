@@ -4,5 +4,7 @@ function toggle() {
   navBar.classList.toggle("show-menu");
   if (navBar.classList.contains("show-menu")) {
     humburgerMenuButton.style.display = "none";
+  } else {
+    humburgerMenuButton.style.display = "block";
   }
 }
