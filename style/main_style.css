@@ -11,10 +11,10 @@ html {
   width: 100%;
   height: 100%;
 }
-body {
+/* body {
   background: linear-gradient(rgba(13, 71, 83, 78%), rgba(13, 71, 83, 78%)),
     url("../assets/IMG_20221024_160602_501.jpg") center center/cover fixed;
-}
+} */
 /* .main .countainer .content{
     background-color: red;
 } */
