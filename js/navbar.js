@@ -8,3 +8,14 @@ function toggle() {
     humburgerMenuButton.style.display = "block";
   }
 }
+
+window.addEventListener("resize", () => {
+  if (window.innerWidth > 480 && !navBar.classList.contains("show-menu")) {
+    humburgerMenuButton.style.display = "none";
+  } else if (
+    window.innerWidth <= 480 &&
+    !navBar.classList.contains("show-menu")
+  ) {
+    humburgerMenuButton.style.display = "block";
+  }
+});

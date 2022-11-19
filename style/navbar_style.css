@@ -15,7 +15,6 @@ header {
   background-color: rgba(13, 71, 83, 78%);
   border-radius: 0 0 25px 25px;
   color: #fff;
-  /* color: rgb(210, 210, 210); */
   font-size: 1.5rem;
   display: flex;
   align-items: center;
@@ -63,8 +62,8 @@ header {
   .close-btn {
     display: block;
     position: absolute;
-    top: 3%;
-    right: 5%;
+    top: 1.5rem;
+    right: 2rem;
     font-size: 1.5rem;
   }
   .nav-bar {
