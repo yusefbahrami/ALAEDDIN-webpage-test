@@ -80,6 +80,10 @@ header {
     justify-content: center;
     text-align: center;
     z-index: 1000;
+    transition: all 0.3s;
+  }
+  .nav-bar.disactive {
+    right: -12rem;
   }
   .show-menu {
     visibility: visible;

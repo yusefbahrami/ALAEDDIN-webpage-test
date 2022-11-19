@@ -2,6 +2,7 @@ const navBar = document.querySelector(".nav-bar");
 const humburgerMenuButton = document.querySelector(".humburger");
 function toggle() {
   navBar.classList.toggle("show-menu");
+  navBar.classList.toggle("disactive");
   if (navBar.classList.contains("show-menu")) {
     humburgerMenuButton.style.display = "none";
   } else {
